@@ -44,13 +44,13 @@ public class Exercicio03 {
         else { 
             if (a != b && b != c){
             if (a* a == p){
-            System.out.println("Os lados formam um triângulo retângulo");
+            System.out.println("Os lados formam um triangulo retangulo");
         }
         else if (a* a > p){
             System.out.println("Os lados formam um triangulo obtusangulo");
         }
         else if (a * a < p){
-            System.out.println("Os lados formam um triângulo acutangulo");
+            System.out.println("Os lados formam um triangulo acutangulo");
         }
                 }
             }
