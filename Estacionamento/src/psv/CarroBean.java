@@ -2,16 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package psv;
 
-/**
- *
- * @author CAMARGO
- */
-public class CarroBean {
-     private String placa; 
+package psv; 
+public class CarroBean { 
+    private String placa; 
     private String cor; 
-    
     private String descricao; 
  
     public String getCor() { 
@@ -32,5 +27,4 @@ public class CarroBean {
     public void setPlaca(String placa) { 
         this.placa = placa; 
     }    
-    
 }
