@@ -1,19 +1,19 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.Calculadora to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.Calculo to edit this template
  */
-package Calculo;
+package Formularios;
 
 /**
  *
  * @author CAMARGO
  */
-public class Calculadora extends javax.swing.JFrame {
+public class Calculo extends javax.swing.JFrame {
 
     /**
      * Creates new form java
      */
-    public Calculadora() {
+    public Calculo() {
         initComponents();
     }
 
@@ -217,21 +217,23 @@ public class Calculadora extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            Calculadora.util.logging.Logger.getLogger(Calculadora.class.getName()).log(Calculadora.util.logging.Level.SEVERE, null, ex);
+            Calculo.util.logging.Logger.getLogger(Calculo.class.getName()).log(Calculo.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            Calculadora.util.logging.Logger.getLogger(Calculadora.class.getName()).log(Calculadora.util.logging.Level.SEVERE, null, ex);
+            Calculo.util.logging.Logger.getLogger(Calculo.class.getName()).log(Calculo.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            Calculadora.util.logging.Logger.getLogger(Calculadora.class.getName()).log(Calculadora.util.logging.Level.SEVERE, null, ex);
+            Calculo.util.logging.Logger.getLogger(Calculo.class.getName()).log(Calculo.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            Calculadora.util.logging.Logger.getLogger(Calculadora.class.getName()).log(Calculadora.util.logging.Level.SEVERE, null, ex);
+            Calculo.util.logging.Logger.getLogger(Calculo.class.getName()).log(Calculo.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
-        Calculadora.awt.EventQueue.invokeLater(new Runnable() {
+        Calculo.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Calculadora().setVisible(true);
+                new Calculo().setVisible(true);
             }
         });
     }
